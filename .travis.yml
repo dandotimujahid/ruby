@@ -193,7 +193,6 @@ before_script:
   - mv ../config_2nd ~
   - chmod u-w ..
   - $SETARCH make -s $JOBS
-  - chmod u+w ../gems
   - make -s install
   - |-
     [ -z "${GEMS_FOR_TEST}" ] ||

@@ -191,7 +191,7 @@ before_script:
   - chmod u+w ..
   - rm -rf ~/config_2nd
   - mv ../config_2nd ~
-  - chmod u-w ..
+  #- chmod u-w ..
   - $SETARCH make -s $JOBS
   - make -s install
   - |-
